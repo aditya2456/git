@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)http://127.0.0.1:5500/language.c/Assignment.c/e-newspaper/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Newspaper</title>
+    <link rel="stylesheet" href="./E-Newspaper_files/styles.css">
+</head>
+<body>
+
+    
+    <nav>
+        <header>
+            <h1>E-Newspaper</h1>
+        </header>
+        <div class="main-nav container flex">
+            <a href="http://127.0.0.1:5500/language.c/Assignment.c/e-newspaper/index.html#" class="company-logo">
+                <img src="./E-Newspaper_files/news.jpg" alt="company logo">
+            </a>
+
+            
+
+            <div class="nav-links">
+                
+                <ul class="flex">
+                  
+                    <li class="hover-link nav-item" id="home" onclick="reload()" ;onclick="onNavItemClick(&#39;home&#39;)">Home</li>
+                    <li class="hover-link nav-item" id="finance" onclick="onNavItemClick(&#39;finance&#39;)">Finance</li>
+                    <li class="hover-link nav-item" id="politics" onclick="onNavItemClick(&#39;politics&#39;)">Politics</li>
+                    <li class="hover-link nav-item" id="sports" onclick="onNavItemClick(&#39;sports&#39;)">Sports</li>
+                    <li class="hover-link nav-item" id="education" onclick="onNavItemClick(&#39;education&#39;)">Education</li>
+                    <li class="hover-link nav-item" id="international" onclick="onNavItemClick(&#39;international&#39;)">International</li>
+                    <li class="hover-link nav-item" id="world news" onclick="onNavItemClick(&#39;world news&#39;)">World News</li>
+                   
+                      
+
+                </ul>
+
+            </div>
+        
+        
+            <div class="search-bar flex">
+                <input id="search-text" type="text" class="news-input" placeholder="Search news...">
+                <button id="search-button" class="search-button">Search</button>
+                
+        
+            </div></div></nav>
+            
+    
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/537ff930-6139-11ee-b101-6f93d6dfbcc2.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">India games arcade fire kills 20</h3>
+                <h6 class="news-source" id="news-source">BBC News · 25/5/2024, 11:06:20 pm</h6>
+                <p class="news-desc" id="news-desc">The fire broke out in a gaming zone in the western state of Gujarat</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/A-Leak-of-Biometric-Police-Data-Is-a-Sign-of-Things-to-Come-Security-GettyImages-1440984199.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">A Leak of Biometric Police Data Is a Sign of Things to Come</h3>
+                <h6 class="news-source" id="news-source">Wired · 23/5/2024, 11:00:00 pm</h6>
+                <p class="news-desc" id="news-desc">Thousands of fingerprints and facial images linked to police in India have been exposed online. Researchers say it’s a warning of what will happen as the collection of biometric data increases.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/_133356635_rahul-and-modi.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Find the latest India election results here</h3>
+                <h6 class="news-source" id="news-source">BBC News · 4/6/2024, 7:00:00 am</h6>
+                <p class="news-desc" id="news-desc">Follow the results live as votes are counted in India, the world's biggest democracy.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/6fafe710-2366-11ef-baa7-25d483663b8e.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">‘Shambolic’ pitch causes havoc as India thrash Ireland</h3>
+                <h6 class="news-source" id="news-source">BBC News · 6/6/2024, 1:13:24 am</h6>
+                <p class="news-desc" id="news-desc">Watch highlights as India's fearsome pace attack ruthlessly blow away Ireland on a difficult pitch in New York to start their T20 World Cup campaign with an eight-wicket victory.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/WI-0424-09-Google-Ads-Breitbart-India-2.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">A Far-Right Indian News Site Posts Racist Conspiracies. US Tech Companies Keep Platforming It</h3>
+                <h6 class="news-source" id="news-source">Wired · 22/5/2024, 1:00:00 pm</h6>
+                <p class="news-desc" id="news-desc">OpIndia claims “Islamophobia does not exist.” A new report shared exclusively with WIRED finds Google’s programmatic ads are running next to its content.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/f2359e40-1f11-11ef-a13a-0b8c563da930.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">India MP arrested in sex abuse case on return to country</h3>
+                <h6 class="news-source" id="news-source">BBC News · 31/5/2024, 12:14:08 pm</h6>
+                <p class="news-desc" id="news-desc">Prajwal Revanna, who is accused of sexually assaulting several women, was arrested at the Bengaluru airport.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/24c80770-2341-11ef-bc00-bfab0688459c.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">India’s opposition looked down and out – now they’re back</h3>
+                <h6 class="news-source" id="news-source">BBC News · 5/6/2024, 11:18:18 pm</h6>
+                <p class="news-desc" id="news-desc">Narendra Modi has won - but the election is being seen as a huge comeback for his opponents.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/cd5aab20-234d-11ef-80aa-699d54c46324.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Arshdeep removes Ireland openers in same over</h3>
+                <h6 class="news-source" id="news-source">BBC News · 5/6/2024, 10:11:27 pm</h6>
+                <p class="news-desc" id="news-desc">India's Arshdeep Singh picks up two wickets in the same over to leave Ireland in trouble on 9-2 in their T20 World Cup match in New York.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/_133312900_p0hy47w6.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Using AI for election campaign phone calls</h3>
+                <h6 class="news-source" id="news-source">BBC News · 16/5/2024, 7:10:57 am</h6>
+                <p class="news-desc" id="news-desc">The BBC got to see just how easy it is to create a fake phone call between two people.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/665f087acc442a2f676dab1e" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Modi's election surprise raises questions about India for USA Inc</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 4/6/2024, 8:37:24 pm</h6>
+                <p class="news-desc" id="news-desc">Narendra Modi's reduced majority may make it tougher for his government to push through reforms and spook sentiment for some big American companies.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/d2e576a0-233f-11ef-bc00-bfab0688459c.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Allies back Modi for third term after election setback</h3>
+                <h6 class="news-source" id="news-source">BBC News · 5/6/2024, 9:35:28 pm</h6>
+                <p class="news-desc" id="news-desc">Narendra Modi is reliant on his alliance partners after his party failed to win an outright majority.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/66631e09cc442a2f676f130d" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">The competition between India and China is about more than raw power</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 8/6/2024, 5:03:17 pm</h6>
+                <p class="news-desc" id="news-desc">India and China are locked in a battle between two very different political ideologies.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/wired democracy gradient.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">How AI Is Impacting the 2024 Elections</h3>
+                <h6 class="news-source" id="news-source">Wired · 30/5/2024, 4:00:00 pm</h6>
+                <p class="news-desc" id="news-desc">More than 60 countries are holding elections in 2024. Throughout the year, WIRED will be tracking every instance of AI's use in and around those campaigns.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/66604c821cd3b1779043637f" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Modi is on a mission to assert India's global power. His election setback won't deter him.</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 5/6/2024, 7:30:02 pm</h6>
+                <p class="news-desc" id="news-desc">The Indian leader has pursued an assertive foreign policy, and has sought to position India as a global power player.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/6658da9acc442a2f676c6917" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">A bizarre comment stirred speculation India may try to match China's carrier fleet</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 1/6/2024, 5:13:02 pm</h6>
+                <p class="news-desc" id="news-desc">India is building a 3rd aircraft carrier and the country's defense minister suggested that more may soon be in the works.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/666368e8e079049018172660" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">The year of the election just delivered its first big stock-market shocks</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 8/6/2024, 5:03:01 pm</h6>
+                <p class="news-desc" id="news-desc">Surprise election results in India and Mexico this week are a reminder of potential market volatility to come this year, analysts say.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/6658d9d9d0b8e1c832ca7295" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Delhi hits record 127 degrees as residents struggle to secure water</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 31/5/2024, 3:35:38 am</h6>
+                <p class="news-desc" id="news-desc">Delhi, India, hit a record 127 degrees Fahrenheit amid a water shortage. At least 11 people have died, and hospitals are seeing spikes in patients.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/Amazon-buys-parts-of-MX-Player-assets-to-boost-India-presence.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Amazon buys parts of MX Player assets to boost India presence</h3>
+                <h6 class="news-source" id="news-source">ReadWrite · 6/6/2024, 10:43:59 pm</h6>
+                <p class="news-desc" id="news-desc">Amazon has confirmed that it acquired parts of the Indian video streaming service MX Player, a move that is part… Continue reading Amazon buys parts of MX Player assets to boost India presence
+The post Amazon buys parts of MX Player assets to boost India pres…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/business_64.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">India Unable To Impose Caps on Mobile Payments Market Share, Four Years On</h3>
+                <h6 class="news-source" id="news-source">Slashdot.org · 11/5/2024, 3:40:00 am</h6>
+                <p class="news-desc" id="news-desc">Eight years ago, a coalition of retail banks in India built a mobile payments system called the UPI. The system is interoperable, allowing users to make instant peer-to-peer transactions between them -- across all participating banks -- and to merchants at ze…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/665fc771d0b8e1c832cc051b" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">India wants to be the new China. Modi's shock election result shows it won't be easy.</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 5/6/2024, 4:34:23 pm</h6>
+                <p class="news-desc" id="news-desc">Decision-making and policy changes in the world's largest democracy will take far longer than they do in Communist China — a one-party state.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/33d62660-1ed3-11ef-baa7-25d483663b8e.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Pace duo Wood &amp; Archer bring excitement for England</h3>
+                <h6 class="news-source" id="news-source">BBC News · 31/5/2024, 5:35:55 am</h6>
+                <p class="news-desc" id="news-desc">Jofra Archer looks like he has never been away while Mark Wood finds form to bring the "excitement" to England's T20 World Cup defence.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/a59eb2b0-2358-11ef-9172-ad9a68451ccf.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Baby died after being shaken by boy, 16, court told</h3>
+                <h6 class="news-source" id="news-source">BBC News · 6/6/2024, 12:49:25 am</h6>
+                <p class="news-desc" id="news-desc">Elijah Shemwell was shaken to death by his mother's 16-year-old partner, a murder trial hears.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/Tornado-Crypto-Currency.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">The $2.3 Billion Tornado Cash Case Is a Pivotal Moment for Crypto Privacy</h3>
+                <h6 class="news-source" id="news-source">Wired · 13/5/2024, 9:12:03 pm</h6>
+                <p class="news-desc" id="news-desc">Tuesday’s verdict in the trial of Alexey Pertsev, a creator of crypto-privacy service Tornado Cash, is the first in a string of cases that could make it much harder to skirt financial surveillance.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/de01a1c0-1166-11ef-9602-b7eb005626eb.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">'English cricket must do without Anderson' - Key</h3>
+                <h6 class="news-source" id="news-source">BBC News · 14/5/2024, 4:01:05 am</h6>
+                <p class="news-desc" id="news-desc">Rob Key says English cricket will "have to do without Jimmy Anderson" after the fast bowler calls time on his legendary career against West Indies at Lord's in July.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/apple-india.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Apple Pushes Back Against India's New Digital Market Regulations</h3>
+                <h6 class="news-source" id="news-source">MacRumors · 29/5/2024, 10:22:19 pm</h6>
+                <p class="news-desc" id="news-desc">Apple, Google, and Amazon are urging India to reconsider its proposed Digital Competition Bill, citing concerns over increased user costs and potential reductions in investment (via Reuters).
+
+
+
+
+
+A U.S. lobby group representing major technology companies has…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/goldman-prize-winner-2_wide-5f4a72e74d371cdd7bc651b66aaf12c989d21ebd.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">He frolicked in forests as a kid. Now he's saving them from a coal mine plan</h3>
+                <h6 class="news-source" id="news-source">NPR · 31/5/2024, 2:57:49 am</h6>
+                <p class="news-desc" id="news-desc">Alok Shukla is one of the winners of the 2024 Goldman Environmental Prize. He's cited for a campaign to keep a company from felling a forest in India to excavate the coal that lies beneath.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/saved_resource" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">The U.S. defeats Pakistan in a dramatic upset at the cricket World Cup</h3>
+                <h6 class="news-source" id="news-source">NPR · 7/6/2024, 2:42:55 pm</h6>
+                <p class="news-desc" id="news-desc">Cricket is one of the world’s most popular sports, with about 2.5 billion fans. Several of the U.S. team’s starting players are from other countries, including India, Pakistan and New Zealand.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/AP22296505243992.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">The Controversy Over a New Population Study From India</h3>
+                <h6 class="news-source" id="news-source">Time · 10/5/2024, 10:16:47 pm</h6>
+                <p class="news-desc" id="news-desc">Critics say the study could sow communal discord between Hindus and Muslims during India's ongoing elections.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/665f1bc7d0b8e1c832cbac98" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">John Oliver warns India is 'sliding towards authoritarianism' as Modi declares victory in tighter-than-expected election</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 4/6/2024, 10:31:09 pm</h6>
+                <p class="news-desc" id="news-desc">The Last Week Tonight host turned his satirical eye towards India's leader Narendra Modi, ahead of the country's electoral results.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/665fe054cc442a2f676e077e" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Jamie Dimon probably isn't too happy about how the Indian election went</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 5/6/2024, 2:42:30 pm</h6>
+                <p class="news-desc" id="news-desc">The JPMorgan chief was effusive in his praise for Indian Prime Minister Narendra Modi's leadership back in April.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/66571fef85e29ef64829c22c" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">MrBeast warns fans not to be racist in his battle to win the subscriber war against T-Series</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 29/5/2024, 10:04:11 pm</h6>
+                <p class="news-desc" id="news-desc">MrBeast is on track to overtake T-Series and have the most-subscribed to channel in the world. But he warned fans not to get carried away.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/9e045140-16a6-11ef-a50f-8dde4e8806c8.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Tackling water shortages with 'Star Wars' tech</h3>
+                <h6 class="news-source" id="news-source">BBC News · 28/5/2024, 7:49:45 am</h6>
+                <p class="news-desc" id="news-desc">'I thought why don’t we give it a try?' said student Swapnil Shrivastav, after inspiration struck.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/d6163c05af48d0baf8c6cdf55b10a222" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">China helps Nepal look for oil, vying with India for influence in Himalayan nation</h3>
+                <h6 class="news-source" id="news-source">Yahoo Entertainment · 28/5/2024, 4:30:00 pm</h6>
+                <p class="news-desc" id="news-desc">China is helping Nepal look for oil as Beijing seeks to strengthen bilateral ties and competes with India for influence with the Himalayan neighbour. A team ...</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/6649a39d20abc1efe8fb6473" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Indian authorities seize over $1 billion worth of illegal vote inducements, including drugs and cash, in country's elections</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 19/5/2024, 8:22:38 pm</h6>
+                <p class="news-desc" id="news-desc">The winner of India's general election, which began on April 19 and ends on June 1, will be announced on June 4.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/saved_resource(1)" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">What does the death of a jailed Jesuit priest say about India's democracy under Modi?</h3>
+                <h6 class="news-source" id="news-source">NPR · 2/6/2024, 6:39:55 pm</h6>
+                <p class="news-desc" id="news-desc">Indian police accused Stan Swamy of terrorism. His supporters say he was framed and evidence planted on his computer. Some call it Narendra Modi's Watergate. Six years on, no one has resigned.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/GettyImages-1730512798.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">2023 Was the Worst Year for Internet Shutdowns Globally, New Report Says</h3>
+                <h6 class="news-source" id="news-source">Time · 16/5/2024, 5:00:00 pm</h6>
+                <p class="news-desc" id="news-desc">Led by India with 116 shutdowns, governments weaponized Internet access at an all-time high in 2023, says a new study from Access Now.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/665ff232cc442a2f676e0800" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Yes, Narendra Modi won again. So what's all the fuss about?</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 5/6/2024, 12:42:02 pm</h6>
+                <p class="news-desc" id="news-desc">Narendra Modi secured his third term as prime minister on Tuesday. Yet it's how he's won that's got the world buzzing about Earth's biggest election.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/australia_64.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Australia Criticized For Ramping Up Gas Extraction Through '2050 and Beyond'</h3>
+                <h6 class="news-source" id="news-source">Slashdot.org · 13/5/2024, 8:34:00 am</h6>
+                <p class="news-desc" id="news-desc">Slashdot reader sonlas shared this report from the BBC:
+Australia has announced it will ramp up its extraction and use of gas until "2050 and beyond", despite global calls to phase out fossil fuels. Prime Minister Anthony Albanese's government says the move i…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/media_64.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Amazon Acquires MX Player</h3>
+                <h6 class="news-source" id="news-source">Slashdot.org · 6/6/2024, 6:59:00 pm</h6>
+                <p class="news-desc" id="news-desc">An anonymous reader shared a report: Amazon has agreed to acquire key assets of Indian video streaming service MX Player from the local media powerhouse Times Internet, the latest step by the e-commerce giant to make its services and brand popular in smaller …</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/665d7d1acc442a2f676d0d50" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">India's election is turning out far closer than expected, with Modi unlikely to win by a landslide</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 4/6/2024, 4:34:29 pm</h6>
+                <p class="news-desc" id="news-desc">Narendra Modi's Bharatiya Janata Party and its allies are on track to win the world's biggest election— but not by the landslide they had expected.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/665f4fded0b8e1c832cbdb60" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Shocking Indian election results are a crushing blow to Modi</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 5/6/2024, 12:33:21 am</h6>
+                <p class="news-desc" id="news-desc">Though Prime Minister Narendra Modi is claiming victory, his party is projected to lose power, a rebuke of the Indian leader.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/147b0b30-199e-11ef-baa7-25d483663b8e.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">In pictures: North India boils as temperatures near 50C</h3>
+                <h6 class="news-source" id="news-source">BBC News · 24/5/2024, 2:34:06 pm</h6>
+                <p class="news-desc" id="news-desc">Parts of northern India are experiencing a brutal heatwave, with temperatures crossing 48C.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/_133106750_gettyimages-1139291025.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">India court grants bail to jailed opposition leader</h3>
+                <h6 class="news-source" id="news-source">BBC News · 10/5/2024, 4:07:51 pm</h6>
+                <p class="news-desc" id="news-desc">The Delhi chief minister was arrested in March in a corruption case - he denies the allegations.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/6299e2f0-1ac0-11ef-a13a-0b8c563da930.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Watch: Smoke and flames at deadly India arcade fire</h3>
+                <h6 class="news-source" id="news-source">BBC News · 26/5/2024, 1:03:12 am</h6>
+                <p class="news-desc" id="news-desc">At least 22 people, including children, have died in a fire at a games arcade in India, local officials say.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/66442e929686a6f37bfff6fa" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">A massive billboard fell onto a petrol station and killed at least 14 people during a freak storm</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 15/5/2024, 11:25:03 am</h6>
+                <p class="news-desc" id="news-desc">Local police said the billboard measured around 230 feet by 165 feet, and collapsed due to "speedy winds" on Monday as Mumbai suffered heavy rains.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/wirestory_a73b2212f131b2ff2bec842814cd8ac9_16x9.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">At least 20 dead in a fire in an amusement park in western India, police say</h3>
+                <h6 class="news-source" id="news-source">ABC News · 26/5/2024, 12:18:29 am</h6>
+                <p class="news-desc" id="news-desc">Police say they will file a case of negligence against the park owner.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/_133266668_untitleddesign-4.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">'It can set the country on fire': AI and India's election</h3>
+                <h6 class="news-source" id="news-source">BBC News · 16/5/2024, 7:08:19 am</h6>
+                <p class="news-desc" id="news-desc">As deepfakes and AI-manipulated content circulate in India, experts worry about their implications.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/6e99a85f8f413baddddde989321a88e9" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Bodies of 27 'burnt beyond recognition' after a massive fire in Indian amusement park, relatives say</h3>
+                <h6 class="news-source" id="news-source">Yahoo Entertainment · 26/5/2024, 3:02:11 pm</h6>
+                <p class="news-desc" id="news-desc">Giriraj Singh waited for hours on Sunday to recover the body of his nephew but was told to head home as the remains were “burned beyond recognition.”  “The...</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/iOS-App-Store-General-Feature-Sqaure-Complement.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Apple Shares 2023 App Store Transparency Report</h3>
+                <h6 class="news-source" id="news-source">MacRumors · 18/5/2024, 4:20:47 am</h6>
+                <p class="news-desc" id="news-desc">Apple today published its second annual App Store Transparency Report [PDF], highlighting details like the number of apps that were rejected during the year, the number of customer and developer accounts deactivated, the number of apps removed from the ‌App S…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/_133310981_whatsappimage2024-05-15at1.06.11pm.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">UN says Israeli tank attack killed staff member in Gaza</h3>
+                <h6 class="news-source" id="news-source">BBC News · 15/5/2024, 5:48:28 pm</h6>
+                <p class="news-desc" id="news-desc">A UN security officer from India was killed and another injured after their vehicle was struck on Monday.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/10b1e040-1cf6-11ef-a13a-0b8c563da930.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">The Indian state holding the key to PM Modi's re-election</h3>
+                <h6 class="news-source" id="news-source">BBC News · 29/5/2024, 4:30:48 am</h6>
+                <p class="news-desc" id="news-desc">As India holds an election, all eyes are on Uttar Pradesh, a state with more people than Brazil.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/wirestory_2202de42cde24716cc8d73d030f3a89e_16x9.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Canadian police announce the arrest of a fourth Indian suspect in the killing of a Sikh activist</h3>
+                <h6 class="news-source" id="news-source">ABC News · 12/5/2024, 6:18:26 pm</h6>
+                <p class="news-desc" id="news-desc">A fourth Indian national living in Canada has been charged in the slaying of a Sikh separatist leader last June that became the center of a diplomatic spat with India</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/871ff8f4f402f72fabcfe08a7de724b3" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Delhi temperature may break record for India's highest: 126.1 degrees</h3>
+                <h6 class="news-source" id="news-source">CBS News · 30/5/2024, 1:59:16 am</h6>
+                <p class="news-desc" id="news-desc">A substation in Delhi gave a preliminary reading of 126.1 degrees Fahrenheit this week amid a heat wave.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/664acd3b14fb5b23cc5e1ffd" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">The world's stock markets are so hot that even China's on a rally. Analysts say it's not over yet.</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 20/5/2024, 1:10:07 pm</h6>
+                <p class="news-desc" id="news-desc">Big names, including "Big Short" investor Michael Burry and David Tepper's Appaloosa Management, have been piling into the Chinese stock markets.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/6655052e239fda2da6cbea9f" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Cockroaches wouldn't exist without humans. We helped them become one of the world's worst pests, according to a new study.</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 28/5/2024, 6:57:17 am</h6>
+                <p class="news-desc" id="news-desc">The German cockroach, one of the most common household pests,  adapted to thrive in human dwellings about 2,100 years ago, according to a new study.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/840_560.jpeg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">En 2016, Tesla abrió pedidos en India pidiendo 1.000 dólares como señal. Ahora, sus clientes no tienen ni coche ni dinero</h3>
+                <h6 class="news-source" id="news-source">Xataka.com · 12/5/2024, 11:31:42 pm</h6>
+                <p class="news-desc" id="news-desc">Levantar una marca de coches desde la nada no es sencillo. De hecho, como hemos venido contando en relación al futuro de Rivian o NIO, es extremadamente complicado. Por norma general, se necesitan muchas cosas pero tres de ellas son esenciales:
+<!-- BREAK 1 -…--></p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/GettyImages-2149657578_WEB.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">April Heat Waves from Gaza to the Philippines Were Made Worse by Climate Change</h3>
+                <h6 class="news-source" id="news-source">Scientific American · 15/5/2024, 4:00:00 am</h6>
+                <p class="news-desc" id="news-desc">From Gaza to India to the Philippines, climate change exacerbated often record-breaking extreme heat over the past month</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/c5690dd0-2163-11ef-86dd-17eccd570928.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Heat kills more than 50 people in India in three days</h3>
+                <h6 class="news-source" id="news-source">BBC News · 3/6/2024, 12:49:20 pm</h6>
+                <p class="news-desc" id="news-desc">Over 50 people have died in the past three days due to heat-related illnesses.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/Assassins-Creed-Mirage.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Assassin's Creed Mirage Now Rolling Out on iPhone 15 Pro and iPads With M1 Chip or Newer</h3>
+                <h6 class="news-source" id="news-source">MacRumors · 6/6/2024, 1:29:12 am</h6>
+                <p class="news-desc" id="news-desc">Assassin's Creed Mirage is now rolling out for the iPhone 15 Pro and iPhone 15 Pro Max, as well as iPad Air and iPad Pro models equipped with the M1 chip or newer. 
+
+
+
+
+
+The game will be available in the U.S. starting tomorrow, June 6, according to the App St…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/Apple-Saket-Delhi-India-opening-day-iBook-1.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Apple likely to produce quarter of iPhones in India by 2028, not half by 2027 as predicted</h3>
+                <h6 class="news-source" id="news-source">9to5Mac · 21/5/2024, 3:17:11 pm</h6>
+                <p class="news-desc" id="news-desc">Apple plans to boost its iPhone production in India, increasing from below 15% to 25% by 2028. This target underscores Apple’s commitment to building a robust network of local suppliers and reducing its reliance on Chinese suppliers. It’s also a reality check…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/casino-poker.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">The Best Android Casino Apps in India</h3>
+                <h6 class="news-source" id="news-source">Phandroid - News for Android · 27/5/2024, 2:03:58 am</h6>
+                <p class="news-desc" id="news-desc">In the rapidly advancing world of mobile technology, Android devices have firmly established themselves as the preferred choice for many users in India. Their widespread availability, affordability, and advanced features make them ideal for a range of activit…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/india-elections-muslim-2024.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">A Modi Win Will Only Mean More Trouble for Indian Muslims</h3>
+                <h6 class="news-source" id="news-source">Time · 31/5/2024, 8:14:58 pm</h6>
+                <p class="news-desc" id="news-desc">As India's election comes to a close, journalist Ismat Ara explores how the Indian Muslim community will be affected if Modi wins again.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/a4788fcfb9555c8119be486250af5a00.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">New Ringworm Fungi Are Spreading Sexually and Becoming Harder to Kill</h3>
+                <h6 class="news-source" id="news-source">Gizmodo.com · 5/6/2024, 10:01:00 pm</h6>
+                <p class="news-desc" id="news-desc">Dermatologists are sounding the alarm over two emerging types of fungi that can cause nasty bouts of ringworm. In a new report Wednesday, they describe the first known U.S. case of one ringworm fungus that can spread sexually, while another recent paper detai…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/Next-Apple-antitrust-battle-looming.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Next Apple antitrust battle set to be in India; Apple lobbying against it</h3>
+                <h6 class="news-source" id="news-source">9to5Mac · 29/5/2024, 7:09:06 pm</h6>
+                <p class="news-desc" id="news-desc">It looks like the next Apple antitrust battle will take place in India, as the company prepares its own competition law, which is closely modelled on Europe’s Digital Markets Act (DMA). We learned last week that Japan is also close to implementing its own ver…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/saved_resource(2)" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">In a remote Indian state, trading cash and gifts for votes is an open secret</h3>
+                <h6 class="news-source" id="news-source">NPR · 1/6/2024, 12:31:06 am</h6>
+                <p class="news-desc" id="news-desc">India's election commission says bribery is one of the biggest challenges to free and fair elections. In tiny Arunachal Pradesh, some voters receive the equivalent of up to a year's average earnings.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/929b4ae0-18b6-11ef-bb3a-c37a1f356a43.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Czech court okays extradition of US murder plot accused</h3>
+                <h6 class="news-source" id="news-source">BBC News · 23/5/2024, 1:46:26 pm</h6>
+                <p class="news-desc" id="news-desc">The Czech justice minister will now decide whether to extradite Nikhil Gupta, an Indian, to the US.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/rqNR9WF3NtKSHhQjGZgYqM-1200-80.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Google Play at I/O 2024 highlights better security and user app experiences</h3>
+                <h6 class="news-source" id="news-source">Android Central · 15/5/2024, 1:05:00 am</h6>
+                <p class="news-desc" id="news-desc">Google detailed several new features and tools developers can use for their app on the Play Store.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/XzNzCN6zrJaGevYWJhaZ86-1200-80.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">OnePlus 12 Glacial White hands-on: Simply lovely</h3>
+                <h6 class="news-source" id="news-source">Android Central · 3/6/2024, 1:29:48 pm</h6>
+                <p class="news-desc" id="news-desc">The new limited-edition color isn't as eye-catching as we're used to, but it is elegant in its own right.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/4885fdf0-244c-11ef-80aa-699d54c46324.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">EU elections start with tight Dutch race - exit poll</h3>
+                <h6 class="news-source" id="news-source">BBC News · 7/6/2024, 5:32:12 am</h6>
+                <p class="news-desc" id="news-desc">As 27 EU countries vote over four days, exit polls suggest a narrow defeat for the Dutch far right.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/97e89c19-9d63-4eea-a513-9b3298b6bd44.webp" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Senators inquire about crypto’s role in fentanyl trade</h3>
+                <h6 class="news-source" id="news-source">ReadWrite · 1/6/2024, 12:39:10 am</h6>
+                <p class="news-desc" id="news-desc">A bipartisan duo of senators in the United States have sent an inquiry to government agencies concerning the efforts to… Continue reading Senators inquire about crypto’s role in fentanyl trade
+The post Senators inquire about crypto’s role in fentanyl trade ap…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/a43deb89a9c15cec2786e152a1047908" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Middle-class Americans are falling behind</h3>
+                <h6 class="news-source" id="news-source">CNN · 6/6/2024, 6:35:35 pm</h6>
+                <p class="news-desc" id="news-desc">Middle-class income growth has lagged behind that of the upper class since 1970. The cost-of-living crisis is exacerbating that long-term squeeze.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/gettyimages-839738976_wide-06c03484974f697d96df1f29fa797a90ac17a1dc.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">FDA reviews MDMA for PTSD treatment; Biden to issue executive order on border policy</h3>
+                <h6 class="news-source" id="news-source">NPR · 4/6/2024, 6:48:55 pm</h6>
+                <p class="news-desc" id="news-desc">The FDA will review data to decide whether to approve MDMA, also known as ecstasy, for PTSD treatment. Biden is expected to issue an executive order addressing asylum seekers at the southern border.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/inco.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Inco and Privy partner to enable safe gaming on Telegram Messenger</h3>
+                <h6 class="news-source" id="news-source">VentureBeat · 9/5/2024, 8:00:00 pm</h6>
+                <p class="news-desc" id="news-desc">Inco, the developer of a universal confidentiality layer for Ethereum and other networks, has announced its partnership with Privy.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/6648e21220abc1efe8fb60dc" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">AI 'godfather' Geoffrey Hinton says he's 'very worried' about AI taking jobs and has advised the British government to adopt a universal basic income</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 19/5/2024, 12:56:05 am</h6>
+                <p class="news-desc" id="news-desc">Geoffrey Hinton, an early pioneer of AI technology, says people will lose jobs and advised the British government to adopt a universal basic income.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/66629d1ed0b8e1c832cce52b" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">India's once-hot startup Byju's was valued at $22 billion. Now, HSBC and BlackRock say it's worth nothing.</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 7/6/2024, 2:40:44 pm</h6>
+                <p class="news-desc" id="news-desc">In a first-quarter summary for one of its funds, Blackrock valued its stake in Byju's at $0.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/666327311cd3b1779044670d" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">An AI boom and market rebound helped create 500,000 new millionaires in the US last year</h3>
+                <h6 class="news-source" id="news-source">Business Insider · 8/6/2024, 12:07:37 am</h6>
+                <p class="news-desc" id="news-desc">The US added half a million millionaires in 2023, per a Capgemini report. Better markets fueled by the AI boom helped, along with government spending.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/e7437f8291d8499da9538f01bdd7979a" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">"Australia, Brazil, Cambodia": Rep. Eric Swalwell lists countries Trump would be barred from entering as a felon.</h3>
+                <h6 class="news-source" id="news-source">Yahoo Entertainment · 4/6/2024, 7:37:24 pm</h6>
+                <p class="news-desc" id="news-desc">And guys, I'm starting to think you're in a cult. That is your right, but it's not your responsibility. I promise you that's not what your constituents would...</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/240530nothingphone2aspecial_01.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">モダンな限定色をまとったNothingのスマホ。「Phone (2a) Special Edition」が登場</h3>
+                <h6 class="news-source" id="news-source">Gizmodo.jp · 30/5/2024, 9:00:00 pm</h6>
+                <p class="news-desc" id="news-desc">Image:Nothingガンダムに見えた人もいるとかいないとか。Nothingの透明スマホに、色彩鮮やかな数量限定モデル「Phone(2a)SpecialEdition」が登場しました。透明感はそのままに、ややカラフルに。Phone(2a)SpecialEditionは私たちの最も力強くユニークなスマートフォンを通じて語られるカラーの物語です。Nothingのデザインのコアは透明性。不必要なもの</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/interpreter.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">3 underrated Netflix movies you should watch this weekend (May 10-12)</h3>
+                <h6 class="news-source" id="news-source">Digital Trends · 11/5/2024, 4:30:25 am</h6>
+                <p class="news-desc" id="news-desc">Looking for some good films to watch on Netflix this weekend? Then stream these underrated movies starring Nicole Kidman, Tina Fey, Sean Penn, and more.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/895d6ef0-1e55-11ef-986e-85bf00bd2d82.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">India's Modi could win third term, polls predict</h3>
+                <h6 class="news-source" id="news-source">BBC News · 1/6/2024, 9:59:04 pm</h6>
+                <p class="news-desc" id="news-desc">Exit polls say Mr Modi's Bharatiya Janata Party is on course to win India's general election.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/russia-raisi-dead.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">World Leaders React to Death of Iranian President Ebrahim Raisi</h3>
+                <h6 class="news-source" id="news-source">Time · 20/5/2024, 9:29:47 pm</h6>
+                <p class="news-desc" id="news-desc">Here's a look at how leaders from other nations are reacting to the news of Raisi's mysterious death.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/Justice-Department.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Virginia tech company pays $38K to settle allegations over whites-only job listing</h3>
+                <h6 class="news-source" id="news-source">Fox News · 29/5/2024, 12:37:39 am</h6>
+                <p class="news-desc" id="news-desc">A tech company in northern Virginia has settled claims of discrimination by paying $38,500. The Justice Department announced on Thursday that it had reached an agreement.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/Samsung-Galaxy-Ring-2.jpeg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Samsung Galaxy Ring price leaks are disappointing fans</h3>
+                <h6 class="news-source" id="news-source">ReadWrite · 23/5/2024, 12:06:00 am</h6>
+                <p class="news-desc" id="news-desc">Price leaks for the Samsung Galaxy Ring are disappointing fans – and not just because they’re higher than first thought.… Continue reading Samsung Galaxy Ring price leaks are disappointing fans
+The post Samsung Galaxy Ring price leaks are disappointing fans a…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/Dell-warns-customers-about-massive-data-breach-of-49M-records.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Dell warns 49 million customers about massive data breach</h3>
+                <h6 class="news-source" id="news-source">ReadWrite · 10/5/2024, 1:35:09 am</h6>
+                <p class="news-desc" id="news-desc">Dell has warned customers of a massive data breach following a hacker’s claims they accessed information belonging to roughly 49… Continue reading Dell warns 49 million customers about massive data breach
+The post Dell warns 49 million customers about massive…</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <img src="./E-Newspaper_files/Star-Wars-Outlaws.jpg" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">Ubisoft Forward showcase announced for June in the heart of summer games season</h3>
+                <h6 class="news-source" id="news-source">ReadWrite · 1/6/2024, 12:46:51 am</h6>
+                <p class="news-desc" id="news-desc">Ubisoft, the publisher of the Assassin’s Creed and Tom Clancy’s series of adventures, as well as the recently launched XDefiant… Continue reading Ubisoft Forward showcase announced for June in the heart of summer games season
+The post Ubisoft Forward showcase…</p>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+    <template id="template-news-card"></template>
+
+    <template id="template-news-card"></template>
+
+<template id="template-news-card"></template>
+
+        <template id="template-news-card"></template>
+
+
+
+    <script src="./E-Newspaper_files/script.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
